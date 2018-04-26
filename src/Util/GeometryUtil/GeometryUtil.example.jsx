@@ -5,7 +5,7 @@ import OlMap from 'ol/Map';
 import OlView from 'ol/View';
 import OlLayerTile from 'ol/layer/Tile';
 import OlSourceOsm from 'ol/source/OSM';
-import olProj from 'ol/proj';
+import { fromLonLat } from 'ol/proj';
 
 import { message } from 'antd';
 
@@ -28,7 +28,7 @@ const map = new OlMap({
     })
   ],
   view: new OlView({
-    center: olProj.fromLonLat([37.40570, 8.81566]),
+    center: fromLonLat([37.40570, 8.81566]),
     zoom: 4
   })
 });
