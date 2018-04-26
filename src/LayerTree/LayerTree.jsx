@@ -4,10 +4,10 @@ import isBoolean from 'lodash/isBoolean.js';
 import isFunction from 'lodash/isFunction.js';
 import isEqual from 'lodash/isEqual.js';       
 import { Tree } from 'antd';
-import OlMap from 'ol/map';
-import OlLayerBase from 'ol/layer/base';
-import OlLayerGroup from 'ol/layer/group';
-import olObservable from 'ol/observable';
+import OlMap from 'ol/Map';
+import OlLayerBase from 'ol/layer/Base';
+import OlLayerGroup from 'ol/layer/Group';
+import olObservable from 'ol/Observable';
 
 import Logger from '../Util/Logger';
 import MapUtil from '../Util/MapUtil/MapUtil';

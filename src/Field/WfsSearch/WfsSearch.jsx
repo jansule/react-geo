@@ -7,9 +7,9 @@ import Logger from '../../Util/Logger';
 import WfsFilterUtil from '../../Util/WfsFilterUtil/WfsFilterUtil';
 import { CSS_PREFIX } from '../../constants';
 
-import OlMap from 'ol/map';
-import OlFormatGeoJSON from 'ol/format/geojson';
-import OlFormatWFS from 'ol/format/wfs';
+import OlMap from 'ol/Map';
+import OlFormatGeoJSON from 'ol/format/GeoJSON';
+import OlFormatWFS from 'ol/format/WFS';
 
 /**
  * The WfsSearch field.
